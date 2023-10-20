@@ -83,6 +83,5 @@ if (i === 1) {
     app.timeout = 5000;
 } else if (i === 3) {
     app.listen(process.env.PORT || 8080);
-    console.log(process.env.PORT);
     app.timeout = 5000;
-};
+}
