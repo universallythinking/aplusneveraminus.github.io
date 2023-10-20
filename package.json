@@ -1,0 +1,19 @@
+{
+    "author": "Universally Thinking",
+    "name": "web-api-auth-examples",
+    "description": "Basic examples of the Spotify authorization flows through OAuth 2",
+    "version": "0.0.1",
+    "dependencies": {
+        "body-parser": "^1.15.2",
+        "cookie-parser": "^1.4.4",
+        "express": "^4.14.0",
+        "jquery": "~2.1.1",
+        "nodemailer": "*",
+        "request": "*",
+        "emailjs-imap-client": "*"
+    },
+    "scripts": {
+        "test": "node ./authorization_code/dev.js",
+        "start": "node ./app.js"
+    }
+}
