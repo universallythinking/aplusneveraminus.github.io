@@ -39,7 +39,7 @@
             obj.message = $("#message-form6-f").val();
             $.ajax({
                 type: "GET",
-                url: "/contact",
+                url: "https://apnamcs.herokuapp.com/contact",
                 dataType: "json",
                 data: obj,
                 success: function() {

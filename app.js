@@ -8,7 +8,7 @@ var i = 3;
 
 var app = express();
 
-app.use(express.static(__dirname + './'))
+app.use(express.static(__dirname + '/www'))
     .use(cookieParser());
 
 app.get('/', function(req, res) {
